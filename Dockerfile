@@ -1,4 +1,4 @@
-FROM n8nio/n8n:1.92.2  # Updated to latest stable
+FROM n8nio/n8n:1.94.1  # Updated to latest stable
 USER root
 RUN apt-get update && \
     apt-get install -y ffmpeg && \
